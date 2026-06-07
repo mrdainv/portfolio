@@ -1,0 +1,173 @@
+{
+  "personal": {
+    "name": "Firmansyah Davin Falahtama",
+    "shortName": "Davin Falahtama",
+    "initials": "DF",
+    "title": "AI & Cloud Engineer",
+    "badge": "AI & Cloud Engineer",
+    "heroGreeting": "Hello, I'm",
+    "heroTypedWords": [
+      "AI & Cloud Engineer",
+      "Generative AI Specialist",
+      "LLM & RAG Enthusiast",
+      "Terraform & AWS Practitioner",
+      "Vibe Coder"
+    ],
+    "aboutParagraphs": [
+      "<strong>AI and Cloud Engineer</strong> with experience building Generative AI, NLP, and LLM-based systems as well as managing cloud infrastructure using <strong>Infrastructure as Code (Terraform) on AWS</strong>.",
+      "Experienced in developing AI-powered chatbots, implementing <strong>Retrieval-Augmented Generation (RAG)</strong> pipelines, and deploying applications using <strong>FastAPI, Docker, and cloud platforms</strong>.",
+      "Currently working in the <strong>Cloud Center of Excellence (CCOE) at CIMB Niaga</strong>, focusing on cloud infrastructure provisioning, automation, and internal cloud platform services. Passionate about combining AI, cloud, and automation to build scalable and impactful technology solutions."
+    ],
+    "stats": [
+      { "label": "Experience", "target": 4, "suffix": "" },
+      { "label": "Projects", "target": 8, "suffix": "" },
+      { "label": "Certifications", "target": 5, "suffix": "" },
+      { "label": "GPA", "target": 3.90, "suffix": "" }
+    ],
+    "contact": {
+      "location": "Depok, Indonesia",
+      "email": "davinfalahtama@gmail.com",
+      "phone": "+62 812-9312-3665",
+      "linkedin": "https://www.linkedin.com/in/firmansyahdavin",
+      "github": "https://github.com/davinfalahtama"
+    },
+    "socials": [
+      { "icon": "fab fa-github", "url": "https://github.com/davinfalahtama" },
+      { "icon": "fab fa-linkedin", "url": "https://www.linkedin.com/in/firmansyahdavin" },
+      { "icon": "fas fa-envelope", "url": "mailto:davinfalahtama@gmail.com" }
+    ]
+  },
+  "nav": [
+    { "id": "hero", "label": "Home", "icon": "fas fa-home" },
+    { "id": "about", "label": "About", "icon": "fas fa-user" },
+    { "id": "skills", "label": "Skills", "icon": "fas fa-code" },
+    { "id": "experience", "label": "Experience", "icon": "fas fa-briefcase" },
+    { "id": "education", "label": "Education", "icon": "fas fa-graduation-cap" },
+    { "id": "projects", "label": "Projects", "icon": "fas fa-project-diagram" },
+    { "id": "certifications", "label": "Certifications", "icon": "fas fa-certificate" },
+    { "id": "contact", "label": "Contact", "icon": "fas fa-envelope" }
+  ],
+  "skills": [
+    { "name": "Python", "icon": "fab fa-python", "level": 92 },
+    { "name": "AWS", "icon": "fas fa-cloud", "level": 85 },
+    { "name": "Terraform (IaC)", "icon": "fas fa-code", "level": 88 },
+    { "name": "Docker & FastAPI", "icon": "fas fa-dice-d6", "level": 80 },
+    { "name": "LLM & RAG", "icon": "fas fa-brain", "level": 90 },
+    { "name": "NLP & LangChain", "icon": "fas fa-language", "level": 85 },
+    { "name": "Generative AI", "icon": "fas fa-robot", "level": 88 },
+    { "name": "Pinecone & Vector DB", "icon": "fas fa-database", "level": 75 },
+    { "name": "Git & GitHub", "icon": "fab fa-git-alt", "level": 85 },
+    { "name": "Checkov & Atlantis", "icon": "fas fa-shield-alt", "level": 70 }
+  ],
+  "experience": [
+    {
+      "period": "Mar 2025 - Present",
+      "role": "Cloud Platform Engineer (CCOE)",
+      "company": "CIMB Niaga — Cipta IT Developer",
+      "location": "Tangerang Selatan, Indonesia",
+      "description": "Provision and manage cloud infrastructure on AWS using Terraform (IaC). Manage Cloud Service Catalog via Ivanti, design workflows for instance resizing, resource provisioning, IAM permissions, and decommissioning. Collaborate with engineering teams to standardize cloud operations.",
+      "tags": ["Terraform", "AWS", "Ivanti", "Automation"]
+    },
+    {
+      "period": "Nov 2024 - Feb 2025",
+      "role": "Artificial Intelligence (AI) Engineer",
+      "company": "Indonesia AI",
+      "location": "Depok, Indonesia",
+      "description": "Developed AI-driven solutions for consulting clients. Built Data Analyst Chatbot using GPT-4o-mini, OpenAI Assistant API, and Code Interpreter. Designed custom RAG chatbot with Pinecone vector search, deployed via FastAPI and Docker on GCP. Created corporate training syllabus on NLP and Generative AI.",
+      "tags": ["GPT-4o", "RAG", "Pinecone", "FastAPI", "Docker"]
+    },
+    {
+      "period": "Feb 2024 - Jun 2024",
+      "role": "AI Engineer Intern",
+      "company": "Sekretariat Ditjen Dikti Ristek — Kampus Merdeka",
+      "location": "South Tangerang, Indonesia",
+      "description": "Developed Borobudur AI Chatbot powered by LLMs for students. Implemented RAG using LangChain, built prototype with Gradio, and evaluated models using BLEU, ROUGE, and BERT metrics. Integrated sentiment analysis using IndoBERT for input filtering.",
+      "tags": ["LangChain", "LLM", "IndoBERT", "Gradio", "RAG"]
+    },
+    {
+      "period": "Oct 2023 - Jan 2024",
+      "role": "Data Analytics Intern",
+      "company": "PLN Icon Plus",
+      "location": "South Jakarta, Indonesia",
+      "description": "Customer Profiling for PLN using Python. Performed Exploratory Data Analysis (EDA) and Clustering to uncover meaningful customer relationships. Conducted customer segmentation to provide valuable insights into the diverse customer base.",
+      "tags": ["Python", "EDA", "Clustering", "Data Analytics"]
+    }
+  ],
+  "education": [
+    {
+      "period": "Sep 2020 - Sep 2024",
+      "institution": "Institut Teknologi Perusahaan Listrik Negara",
+      "location": "West Jakarta",
+      "degree": "Undergraduate Informatics Engineering Student",
+      "gpa": "3.90/4.00",
+      "description": "",
+      "tags": []
+    },
+    {
+      "period": "Feb 2023 - Jul 2023",
+      "institution": "Bangkit Academy 2023",
+      "location": "",
+      "degree": "Machine Learning Cohort",
+      "gpa": "",
+      "description": "by Google, GoTo, and Traveloka — Kampus Merdeka. Capstone: Built GiziWise — an app that analyzes nutritional content of food from images.",
+      "tags": ["Machine Learning", "TensorFlow", "Capstone"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "PMB Chatbot ITPLN",
+      "description": "Developed a Chatbot using LLM for New Student Admissions (PMB) at ITPLN. Used Retrieval-Augmented Generation (RAG) with Google Gemini model and PDF text extraction for contextual responses. Evaluated using ROUGE metric and human evaluation.",
+      "category": "LLM",
+      "icon": "fas fa-comment-dots",
+      "github": "https://github.com/davinfalahtama/Custom_Chatbot_ITPLN",
+      "tags": ["LLM", "RAG", "Gemini"]
+    },
+    {
+      "title": "Data Analyst Chatbot",
+      "description": "Built a data analyst chatbot using GPT-4o-mini, OpenAI Assistant API, and Code Interpreter. Deployed on Streamlit — users can upload CSV data, ask questions, generate plots/charts, and create code snippets for analysis.",
+      "category": "Generative AI",
+      "icon": "fas fa-chart-bar",
+      "github": "https://github.com/mrdainv/Data-Analyst-Chatbot",
+      "tags": ["GPT-4o", "Streamlit", "OpenAI"]
+    },
+    {
+      "title": "GiziWise App",
+      "description": "Bangkit Academy capstone project. An app that analyzes nutritional content of food and beverages by capturing images. Uses TensorFlow Object Detection and provides detailed nutritional information, articles, and healthy recipes.",
+      "category": "Computer Vision",
+      "icon": "fas fa-utensils",
+      "github": "https://github.com/davinfalahtama/gizi-wise",
+      "tags": ["TensorFlow", "Mobile", "AI"]
+    },
+    {
+      "title": "Food Object Detection",
+      "description": "Built a machine learning algorithm to detect food objects using TensorFlow Object Detection API. Supports GiziWise app backend for image analysis and food recognition.",
+      "category": "ML",
+      "icon": "fas fa-eye",
+      "github": "https://github.com/davinfalahtama/gizi-wise-ML",
+      "tags": ["TensorFlow", "Object Detection", "ML"]
+    },
+    {
+      "title": "Borobudur AI Chatbot",
+      "description": "Interactive chatbot for students powered by LLMs. Implemented RAG using LangChain, evaluated multiple LLMs, integrated sentiment analysis with IndoBERT, and built prototype interface using Gradio.",
+      "category": "AI Chatbot",
+      "icon": "fas fa-robot",
+      "github": "https://github.com/davinfalahtama",
+      "tags": ["LangChain", "RAG", "NLP"]
+    },
+    {
+      "title": "PLN Customer Profiling",
+      "description": "Comprehensive customer profiling for PLN using Python. Performed EDA and clustering to uncover meaningful relationships within the dataset. Conducted customer segmentation for business insights.",
+      "category": "Data Analytics",
+      "icon": "fas fa-users",
+      "github": "https://github.com/davinfalahtama",
+      "tags": ["Python", "EDA", "Clustering"]
+    }
+  ],
+  "certifications": [
+    { "name": "Azure AI-900", "issuer": "Microsoft Certified: Azure AI Fundamentals", "icon": "fab fa-azure" },
+    { "name": "TensorFlow Developer", "issuer": "TensorFlow Developer Certificate", "icon": "fas fa-brain" },
+    { "name": "TOEFL", "issuer": "English Proficiency Certification", "icon": "fas fa-language" },
+    { "name": "Microsoft Office Specialist", "issuer": "Word 2019 Certification", "icon": "fab fa-microsoft" },
+    { "name": "A-Level", "issuer": "GCE Advanced Subsidiary & Advanced Level", "icon": "fas fa-graduation-cap" }
+  ]
+}
