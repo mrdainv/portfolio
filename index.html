@@ -3,142 +3,424 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Firmansyah Davin Falahtama - Machine Learning & AI Engineer">
-    <title>Firmansyah Davin Falahtama Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <meta name="description" content="Firmansyah Davin Falahtama - AI & Cloud Engineer Portfolio">
+    <title>Davin Falahtama | AI & Cloud Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation">☰</button>
+    <div class="nav-overlay" id="navOverlay"></div>
 
-    <!-- Sidebar Navigation -->
-    <nav id="sideNav" class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid flex-column">
-            <a class="navbar-brand mb-4" href="#">Firmansyah Davin</a>
-            <ul class="navbar-nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="avatar">DF</div>
+            <h3>Davin Falahtama</h3>
+            <span class="badge">AI & Cloud Engineer</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> Experience</a></li>
+            <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a></li>
+            <li><a href="#certifications" class="nav-link"><i class="fas fa-certificate"></i> Certifications</a></li>
+            <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <a href="https://github.com/davinfalahtama" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/firmansyahdavin" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:davinfalahtama@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero text-center d-flex align-items-center justify-content-center">
-        <div class="container">
-            <h1 class="display-4">Firmansyah Davin Falahtama</h1>
-            <p class="lead">Machine Learning & AI Engineer</p>
-            <a href="#projects" class="btn btn-outline-light btn-lg">Explore My Work</a>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section py-5">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am a recent graduate from Institut Teknologi Perusahaan Listrik Negara with a focus on Machine Learning and Artificial Intelligence. I have experience working on AI projects and solutions using Python, TensorFlow, and other tools. My passion lies in problem-solving and creating impactful tech solutions.</p>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="section py-5 bg-light">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <h3>Institut Teknologi Perusahaan Listrik Negara</h3>
-                    <p>Bachelor of Informatics Engineering (2020-2024)</p>
+    <main class="main-content">
+        <section id="hero" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-title">Firmansyah<br>Davin Falahtama</h1>
+                <p class="hero-subtitle"><span class="typed-text"></span><span class="cursor">|</span></p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
                 </div>
-                <div class="timeline-item">
-                    <h3>Bangkit Academy 2023</h3>
-                    <p>Machine Learning Path</p>
+                <div class="hero-scroll">
+                    <span>Scroll Down</span>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section py-5">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <h3>Data Analytics Intern at PLN Icon Plus</h3>
-                    <p>Oct 2023 - Jan 2024</p>
-                </div>
-                <div class="timeline-item">
-                    <h3>AI Engineer at Sekretariat Direktorat Jenderal Pendidikan Tinggi</h3>
-                    <p>Feb 2024 - Jun 2024</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section py-5 bg-light">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">New Student Admission Chatbot</h5>
-                            <p class="card-text">Developed a chatbot using LLM for ITPLN's admissions process.</p>
-                            <a href="https://github.com/davinfalahtama/1Skripsi" class="btn btn-outline-dark" target="_blank">View Project</a>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title"><span class="accent">About</span> Me</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <div class="about-image-placeholder">
+                            <i class="fas fa-robot"></i>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">GiziWise App</h5>
-                            <p class="card-text">An app that analyzes the nutrition content of food images.</p>
-                            <a href="https://github.com/davinfalahtama/gizi-wise" class="btn btn-outline-dark" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">TensorFlow Object Detection</h5>
-                            <p class="card-text">Built a machine learning algorithm to detect food objects.</p>
-                            <a href="https://github.com/davinfalahtama/gizi-wise-ML" class="btn btn-outline-dark" target="_blank">View Project</a>
+                    <div class="about-text">
+                        <p><strong>AI and Cloud Engineer</strong> with experience building Generative AI, NLP, and LLM-based systems as well as managing cloud infrastructure using <strong>Infrastructure as Code (Terraform) on AWS</strong>.</p>
+                        <p>Experienced in developing AI-powered chatbots, implementing <strong>Retrieval-Augmented Generation (RAG)</strong> pipelines, and deploying applications using <strong>FastAPI, Docker, and cloud platforms</strong>.</p>
+                        <p>Currently working in the <strong>Cloud Center of Excellence (CCOE) at CIMB Niaga</strong>, focusing on cloud infrastructure provisioning, automation, and internal cloud platform services. Passionate about combining AI, cloud, and automation to build scalable and impactful technology solutions.</p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number" data-target="4">0</span>
+                                <span class="stat-label">Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-target="8">0</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-target="3">0</span>
+                                <span class="stat-label">Certifications</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-target="3.90">0</span>
+                                <span class="stat-label">GPA</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section py-5">
-        <div class="container text-center">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to reach me at:</p>
-            <ul class="list-unstyled">
-                <li>Email: <a href="mailto:firmansyah2031211@itpln.ac.id">firmansyah2031211@itpln.ac.id</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/firmansyahdavin" target="_blank">linkedin.com/in/firmansyahdavin</a></li>
-                <li>GitHub: <a href="https://github.com/davinfalahtama" target="_blank">github.com/davinfalahtama</a></li>
-            </ul>
-        </div>
-    </section>
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Tech <span class="accent">Stack</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-python skill-icon"></i>
+                        <h4>Python</h4>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-cloud skill-icon"></i>
+                        <h4>AWS</h4>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code skill-icon"></i>
+                        <h4>Terraform (IaC)</h4>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-dice-d6 skill-icon"></i>
+                        <h4>Docker & FastAPI</h4>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-brain skill-icon"></i>
+                        <h4>LLM & RAG</h4>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-language skill-icon"></i>
+                        <h4>NLP & LangChain</h4>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-robot skill-icon"></i>
+                        <h4>Generative AI</h4>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h4>Pinecone & Vector DB</h4>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-git-alt skill-icon"></i>
+                        <h4>Git & GitHub</h4>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-shield-alt skill-icon"></i>
+                        <h4>Checkov & Atlantis</h4>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Footer -->
-    <footer class="text-center py-4">
-        <p>© 2024 Firmansyah Davin Falahtama | All Rights Reserved</p>
-    </footer>
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Work <span class="accent">Experience</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Mar 2025 - Present</span>
+                            <h3>Cloud Platform Engineer (CCOE)</h3>
+                            <p class="timeline-org">CIMB Niaga — Cipta IT Developer</p>
+                            <p>Provision and manage cloud infrastructure on AWS using Terraform (IaC). Manage Cloud Service Catalog via Ivanti, design workflows for instance resizing, resource provisioning, IAM permissions, and decommissioning. Collaborate with engineering teams to standardize cloud operations.</p>
+                            <div class="timeline-tags">
+                                <span class="tag">Terraform</span>
+                                <span class="tag">AWS</span>
+                                <span class="tag">Ivanti</span>
+                                <span class="tag">Automation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Nov 2024 - Feb 2025</span>
+                            <h3>Artificial Intelligence (AI) Engineer</h3>
+                            <p class="timeline-org">Indonesia AI — Depok</p>
+                            <p>Developed AI-driven solutions for consulting clients. Built Data Analyst Chatbot using GPT-4o-mini, OpenAI Assistant API, and Code Interpreter. Designed custom RAG chatbot with Pinecone vector search, deployed via FastAPI and Docker on GCP. Created corporate training syllabus on NLP and Generative AI.</p>
+                            <div class="timeline-tags">
+                                <span class="tag">GPT-4o</span>
+                                <span class="tag">RAG</span>
+                                <span class="tag">Pinecone</span>
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Feb 2024 - Jun 2024</span>
+                            <h3>AI Engineer Intern</h3>
+                            <p class="timeline-org">Sekretariat Ditjen Dikti Ristek — Kampus Merdeka</p>
+                            <p>Developed Borobudur AI Chatbot powered by LLMs for students. Implemented RAG using LangChain, built prototype with Gradio, and evaluated models using BLEU, ROUGE, and BERT metrics. Integrated sentiment analysis using IndoBERT for input filtering.</p>
+                            <div class="timeline-tags">
+                                <span class="tag">LangChain</span>
+                                <span class="tag">LLM</span>
+                                <span class="tag">IndoBERT</span>
+                                <span class="tag">Gradio</span>
+                                <span class="tag">RAG</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Oct 2023 - Jan 2024</span>
+                            <h3>Data Analytics Intern</h3>
+                            <p class="timeline-org">PLN Icon Plus — South Jakarta</p>
+                            <p>Customer Profiling for PLN using Python. Performed Exploratory Data Analysis (EDA) and Clustering to uncover meaningful customer relationships. Conducted customer segmentation to provide valuable insights into the diverse customer base.</p>
+                            <div class="timeline-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">EDA</span>
+                                <span class="tag">Clustering</span>
+                                <span class="tag">Data Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+        <section id="education" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title"><span class="accent">Education</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Sep 2020 - Sep 2024</span>
+                            <h3>Institut Teknologi Perusahaan Listrik Negara</h3>
+                            <p class="timeline-org">West Jakarta</p>
+                            <p>Undergraduate Informatics Engineering Student</p>
+                            <p><strong>GPA: 3.90/4.00</strong></p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Feb 2023 - Jul 2023</span>
+                            <h3>Bangkit Academy 2023</h3>
+                            <p class="timeline-org">by Google, GoTo, and Traveloka — Kampus Merdeka</p>
+                            <p>Machine Learning Cohort</p>
+                            <p>Capstone: Built GiziWise — an app that analyzes nutritional content of food from images. Also provides articles and recipes for healthy food.</p>
+                            <div class="timeline-tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">Capstone</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-comment-dots project-icon"></i>
+                            <span class="project-tag">LLM</span>
+                        </div>
+                        <h3>PMB Chatbot ITPLN</h3>
+                        <p>Developed a Chatbot using LLM for New Student Admissions (PMB) at ITPLN. Used Retrieval-Augmented Generation (RAG) with Google Gemini model and PDF text extraction for contextual responses. Evaluated using ROUGE metric and human evaluation.</p>
+                        <div class="project-footer">
+                            <a href="https://github.com/davinfalahtama/Custom_Chatbot_ITPLN" target="_blank" rel="noopener"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-chart-bar project-icon"></i>
+                            <span class="project-tag">Generative AI</span>
+                        </div>
+                        <h3>Data Analyst Chatbot</h3>
+                        <p>Built a data analyst chatbot using GPT-4o-mini, OpenAI Assistant API, and Code Interpreter. Deployed on Streamlit — users can upload CSV data, ask questions, generate plots/charts, and create code snippets for analysis.</p>
+                        <div class="project-footer">
+                            <a href="https://github.com/mrdainv/Data-Analyst-Chatbot" target="_blank" rel="noopener"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-utensils project-icon"></i>
+                            <span class="project-tag">Computer Vision</span>
+                        </div>
+                        <h3>GiziWise App</h3>
+                        <p>Bangkit Academy capstone project. An app that analyzes nutritional content of food and beverages by capturing images. Uses TensorFlow Object Detection and provides detailed nutritional information, articles, and healthy recipes.</p>
+                        <div class="project-footer">
+                            <a href="https://github.com/davinfalahtama/gizi-wise" target="_blank" rel="noopener"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-eye project-icon"></i>
+                            <span class="project-tag">ML</span>
+                        </div>
+                        <h3>Food Object Detection</h3>
+                        <p>Built a machine learning algorithm to detect food objects using TensorFlow Object Detection API. Supports GiziWise app backend for image analysis and food recognition.</p>
+                        <div class="project-footer">
+                            <a href="https://github.com/davinfalahtama/gizi-wise-ML" target="_blank" rel="noopener"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-robot project-icon"></i>
+                            <span class="project-tag">AI Chatbot</span>
+                        </div>
+                        <h3>Borobudur AI Chatbot</h3>
+                        <p>Interactive chatbot for students powered by LLMs. Implemented RAG using LangChain, evaluated multiple LLMs (selected Kancil-V1-llama3-4bit), integrated sentiment analysis with IndoBERT, and built prototype interface using Gradio.</p>
+                        <div class="project-footer">
+                            <a href="https://github.com/davinfalahtama" target="_blank" rel="noopener"><i class="fab fa-github"></i> View Profile</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-users project-icon"></i>
+                            <span class="project-tag">Data Analytics</span>
+                        </div>
+                        <h3>PLN Customer Profiling</h3>
+                        <p>Comprehensive customer profiling for PLN using Python. Performed EDA and clustering to uncover meaningful relationships within the dataset. Conducted customer segmentation for business insights.</p>
+                        <div class="project-footer">
+                            <a href="https://github.com/davinfalahtama" target="_blank" rel="noopener"><i class="fab fa-github"></i> View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title"><span class="accent">Certifications</span></h2>
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <i class="fab fa-azure cert-icon"></i>
+                        <h4>Azure AI-900</h4>
+                        <p>Microsoft Certified: Azure AI Fundamentals</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-brain cert-icon"></i>
+                        <h4>TensorFlow Developer</h4>
+                        <p>TensorFlow Developer Certificate</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-language cert-icon"></i>
+                        <h4>TOEFL</h4>
+                        <p>English Proficiency Certification</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fab fa-microsoft cert-icon"></i>
+                        <h4>Microsoft Office Specialist</h4>
+                        <p>Word 2019 Certification</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-graduation-cap cert-icon"></i>
+                        <h4>A-Level</h4>
+                        <p>General Certificate of Education Advanced Level</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Depok, Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:davinfalahtama@gmail.com">davinfalahtama@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+6281293123665">+62 812-9312-3665</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/firmansyahdavin" target="_blank" rel="noopener">linkedin.com/in/firmansyahdavin</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/davinfalahtama" target="_blank" rel="noopener">github.com/davinfalahtama</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2024 Firmansyah Davin Falahtama. Built with <i class="fas fa-heart" style="color: #f85149;"></i> and AI</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
